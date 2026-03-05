@@ -33,3 +33,7 @@ def es_primo(numero):
             return False
 
     return True
+
+# funcion factorial
+def factorial(n):
+    pass
