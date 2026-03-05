@@ -19,3 +19,8 @@ def primos_en_rango():
 
             if es_primo:
                 print(num)
+                
+# funcion verificar numero primo
+
+def es_primo(numero):
+    pass
