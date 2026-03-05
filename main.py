@@ -1,7 +1,7 @@
 # main.py
 
-from usuario_a import serie_fibonacci, es_capicua, es_numero_perfecto
-from usuario_b import primos_en_rango, es_primo, factorial, mcd
+from usuario_a import fibonacci #, es_capicua, es_numero_perfecto
+#from usuario_b import primos_en_rango, es_primo, factorial, mcd
 
 
 def mostrar_menu():
@@ -28,7 +28,7 @@ def main():
 
         if opcion == 1:
             n = int(input("Ingrese la cantidad de términos: "))
-            print("Resultado:", serie_fibonacci(n))
+            print("Resultado:", fibonacci(n))
 
         elif opcion == 2:
             numero = int(input("Ingrese un número: "))
