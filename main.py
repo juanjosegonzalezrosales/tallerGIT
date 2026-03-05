@@ -1,7 +1,7 @@
 # main.py
 
 from usuario_a import fibonacci #, es_capicua, es_numero_perfecto
-#from usuario_b import primos_en_rango, es_primo, factorial, mcd
+from usuario_b import primos_en_rango #, es_primo, factorial, mcd
 
 
 def mostrar_menu():
@@ -45,9 +45,7 @@ def main():
                 print("El número NO es perfecto.")
 
         elif opcion == 4:
-            inicio = int(input("Ingrese el valor inicial: "))
-            fin = int(input("Ingrese el valor final: "))
-            print("Primos en el rango:", primos_en_rango(inicio, fin))
+            primos_en_rango()
 
         elif opcion == 5:
             numero = int(input("Ingrese un número: "))
