@@ -14,4 +14,10 @@ def fibonacci(n):
         serie.append(a)
         a, b = b, a + b
 
-    return serie    
+    return serie
+
+def es_capicua(numero):
+    """
+    Recibe un número entero y devuelve True si es capicúa,
+    o False si no lo es.
+    """
