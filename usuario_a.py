@@ -23,3 +23,10 @@ def es_capicua(numero):
     """
     numero_str = str(numero)
     return numero_str == numero_str[::-1]
+
+def es_numero_perfecto(numero):
+    """
+    Recibe un número entero y devuelve True si es perfecto,
+    o False si no lo es.
+    """
+    return
