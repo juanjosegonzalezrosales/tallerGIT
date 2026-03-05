@@ -1,7 +1,7 @@
 # main.py
 
+from usuario_b import primos_en_rango , es_primo #factorial, mcd
 from usuario_a import fibonacci, es_capicua, es_numero_perfecto
-from usuario_b import primos_en_rango#, es_primo, factorial, mcd
 
 
 def mostrar_menu():
@@ -30,19 +30,19 @@ def main():
             n = int(input("Ingrese la cantidad de términos: "))
             print("Resultado:", fibonacci(n))
 
-        elif opcion == 2:
-            numero = int(input("Ingrese un número: "))
-            if es_capicua(numero):
-                print("El número es capicúa.")
-            else:
-                print("El número NO es capicúa.")
+        #elif opcion == 2:
+         #   numero = int(input("Ingrese un número: "))
+          #  if es_capicua(numero):
+           #  print("El número es capicúa.")
+            #else:
+             #   print("El número NO es capicúa.")
 
-        elif opcion == 3:
-            numero = int(input("Ingrese un número: "))
-            if es_numero_perfecto(numero):
-                print("El número es perfecto.")
-            else:
-                print("El número NO es perfecto.")
+      #  elif opcion == 3:
+       #     numero = int(input("Ingrese un número: "))
+        #    if es_numero_perfecto(numero):
+         #       print("El número es perfecto.")
+          #  else:
+           #     print("El número NO es perfecto.")
 
         elif opcion == 4:
             primos_en_rango()
@@ -54,14 +54,14 @@ def main():
             else:
                 print("El número NO es primo.")
 
-        elif opcion == 6:
-            n = int(input("Ingrese un número: "))
-            print("Factorial:", factorial(n))
+        #elif opcion == 6:
+         #   n = int(input("Ingrese un número: "))
+          #  print("Factorial:", factorial(n))
 
-        elif opcion == 7:
-            a = int(input("Ingrese el primer número: "))
-            b = int(input("Ingrese el segundo número: "))
-            print("MCD:", mcd(a, b))
+        #elif opcion == 7:
+         #   a = int(input("Ingrese el primer número: "))
+          #  b = int(input("Ingrese el segundo número: "))
+           # print("MCD:", mcd(a, b))
 
         elif opcion == 0:
             print("Saliendo del programa...")
