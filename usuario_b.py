@@ -36,4 +36,13 @@ def es_primo(numero):
 
 # funcion factorial
 def factorial(n):
-    pass
+
+    if n < 0:
+        return None
+
+    resultado = 1
+
+    for i in range(1, n + 1):
+        resultado *= i
+
+    return resultado
