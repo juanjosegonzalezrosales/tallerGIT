@@ -21,3 +21,5 @@ def es_capicua(numero):
     Recibe un número entero y devuelve True si es capicúa,
     o False si no lo es.
     """
+    numero_str = str(numero)
+    return numero_str == numero_str[::-1]
