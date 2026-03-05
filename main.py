@@ -1,6 +1,6 @@
 # main.py
 
-from usuario_b import primos_en_rango , es_primo#,factorial, mcd
+from usuario_b import primos_en_rango , es_primo,factorial, mcd
 from usuario_a import fibonacci, es_capicua, es_numero_perfecto
 
 

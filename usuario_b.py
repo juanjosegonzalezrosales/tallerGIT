@@ -46,3 +46,15 @@ def factorial(n):
         resultado *= i
 
     return resultado
+
+def mcd(a, b):
+    """
+    Recibe dos números enteros y devuelve su
+    Máximo Común Divisor (MCD) usando
+    el algoritmo de Euclides.
+    """
+
+    while b != 0:
+        a, b = b, a % b
+
+    return abs(a)
